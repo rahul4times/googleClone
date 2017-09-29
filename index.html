@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Rahul Sharma | tkdmaster.sharma@gmail.com -->
     <meta charset="utf-8">
+    <meta name="author" content="Rahul Sharma">
+    <meta name="description" content="Google Clone just for self UI training purpose">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Clone</title>
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <div class="container"> <!-- Main container starts here -->
-      <div class="top-menu">
-        <ul>
-          <li class="top-right"><a href="#">Gmail</a></li>
-          <li class="top-right"><a href="#">Images</a></li>
-          <li class="top-right"><a href="#"><i class="material-icons">apps</i></a></li>
-          <li class="top-right"><input type="button" id="signInBtn" value="Sign in"></li>
-        </ul>
+      <div class="header">
+          <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><i class="material-icons">apps</i></a></li>
+            <li><input type="button" class="signInBtn" value="Sign in"></li>
+          </ul>
       </div>
-      <div class="search-section">
+      <div class="logo-container">
         <div class="logo">
           <img src="./img/google-color.png" alt="Google Clone">
         </div>
-        <div class="inputBox">
-          <input type="text" id="inpt">
-          <i class="material-icons">mic</i>
-        </div>
-        <div class="searchbtns">
-          <input type="button" class="btn" value="Google Search" id="gSearch">
-          <input type="button" class="btn" value="I'm Feeling Lucky">
-        </div>
-        <div class="randomTxt">
-          <p>Explore the many places we call home in the new Google Earth</p>
+      </div>
+      <div class="srchArea">
+        <div class="srchBox">
+          <input type="text" class="search">
+          <i id="mic" class="material-icons">mic</i>
         </div>
       </div>
+      <div class="btnSection">
+        <input type="button" class="btn" value="Google Search">
+        <input type="button" class="btn" value="I'm Feeling Lucky">
+      </div>
+      <div class="rndmTxt">
+        <p>Explore the many places we call home in the new Google Earth</p>
+      </div>
       <footer>
-        <div class="footerLeftMenu">
+        <div class="left-menu">
           <ul>
-            <li class="left-menu">Advertising</li>
-            <li class="left-menu">Business</li>
-            <li class="left-menu">About</li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
           </ul>
         </div>
-        <div class="footerRightMenu">
+        <div class="right-menu">
           <ul>
-            <li class="right-menu">Privacy</li>
-            <li class="right-menu">Terms</li>
-            <li class="right-menu">Settings</li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
           </ul>
         </div>
       </footer>
